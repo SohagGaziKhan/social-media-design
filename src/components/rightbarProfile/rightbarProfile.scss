@@ -1,0 +1,58 @@
+.RightbarProfile {
+  flex: 3;
+
+  .userInfo {
+    margin-bottom: 30px;
+    gap: 10px;
+
+    .userTitel {
+      font-size: 18px;
+      font-weight: 500;
+      padding: 10px 0;
+    }
+
+    .userInfoCity {
+      margin-bottom: 10px;
+      .quention {
+        font-weight: 500;
+        margin-right: 15px;
+        color: #000;
+      }
+      .value {
+        font-weight: 300;
+        color: gray;
+      }
+    }
+  }
+  .userTitel {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+
+  .userFriends {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer;
+   
+
+    .rightbarFollowing {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      cursor: pointer;
+
+      .rightbarFollowingImg {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      .rightbarFollowingName {
+        color: rgb(94, 94, 94);
+        font-size: 15px;
+      }
+    }
+  }
+}
